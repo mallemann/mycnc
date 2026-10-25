@@ -4,6 +4,7 @@ Version history of the machine, based on the [masdrive project pages](https://ma
 
 ## Repository
 
+- **2026-10-25** – V4 bills of materials replaced with the revised versions from masdrive (revised layout).
 - **2026-10-25** – V4 bills of materials added (single-level, multi-level, quantities).
 - **2026-10-25** – Z-axis variants 1–3 and specs synced with masdrive.
 - **2026-10-25** – GrabCAD links updated to the authoritative model list; specs synced with the corrected masdrive pages.
