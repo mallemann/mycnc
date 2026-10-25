@@ -4,6 +4,7 @@ Version history of the machine, based on the [masdrive project pages](https://ma
 
 ## Repository
 
+- **2026-10-25** – CNC router docs, section "The real thing": photo of the complete V4 machine added; captions of the Z-axis photos and rendering corrected; incorrect intro sentence replaced.
 - **2026-10-25** – Release **v4.0** (first public release): release notes added in [.github/RELEASE-NOTES-v4.0.md](.github/RELEASE-NOTES-v4.0.md).
 - **2026-10-25** – Social preview image for GitHub added ([.github/social-preview.png](.github/social-preview.png), 1280 × 640).
 - **2026-10-25** – Improved discoverability: README intro and documentation headings now name the project with common search terms (DIY CNC router, 4th axis, 4th/5th-axis AC/BC rotary table, 5-axis, 6-axis CNC controller).

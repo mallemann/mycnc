@@ -57,12 +57,16 @@ The same BOM is also available as an Excel file with grouped rows to expand and 
 
 Repeat precision: 0.01 mm · Reverse backlash: 0.01 mm
 
-This is what the V4 with the new 6-axis controller (UC300ETH/UB1 + UCCNC) looks like today:
+The complete V4 machine, followed by details of its Z-axis:
+
+![V4 – complete machine](../../images/cnc-router/v4-detail-2.jpg)
+
+*V4 – complete machine*
 
 | | | |
 |---|---|---|
-| ![V4 with new 6-axis controller](../../images/cnc-router/v4-with-6-axis-controller.jpg) | ![V4 – current build](../../images/cnc-router/v4-current-build.jpg) | ![V4 CAD rendering](../../images/cnc-router/v4-cad-rendering.jpg) |
-| V4 with new 6-axis controller (current) | V4 – current build | V4 CAD rendering |
+| ![Z-axis assembly next to its CAD model on the monitor](../../images/cnc-router/v4-with-6-axis-controller.jpg) | ![Z-axis mounted on the gantry, with spindle holder](../../images/cnc-router/v4-current-build.jpg) | ![CAD rendering of the Z-axis with spindle](../../images/cnc-router/v4-cad-rendering.jpg) |
+| Z-axis assembly next to its CAD model | Z-axis mounted on the gantry, with spindle holder | CAD rendering of the Z-axis with spindle |
 
 ## Assembly
 
