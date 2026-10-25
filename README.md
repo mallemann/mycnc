@@ -11,6 +11,14 @@ This repository collects the documentation, bills of materials, the electronics 
 > **⚠️ Safety and liability – please read first.**
 > This is a hobby project, published as-is for inspiration and personal experiments. It is **not** a tested or certified product. Building and operating a CNC machine involves mains voltage, rotating spindles and strong motors that can cause serious injury, fire or damage. **You build and use anything from this repository entirely at your own risk.** There is no warranty and no liability. See [DISCLAIMER.md](DISCLAIMER.md).
 
+## 📋 Full structured BOM with costs (V4)
+
+Every assembly and every single part of the current V4, exported directly from the CAD model, with costs (total as stated in the BOM: **$4,238.30**).
+
+- **[Interactive view on masdrive](https://masdrive.ch/myprojects/projects/cnc-platform/#stueckliste)** – expand and collapse the structure, with thumbnails
+- **[Markdown view in this repo](bom/v4-structured-bom.md)** – collapsible structure, readable directly on GitHub
+- **[Excel download](bom/v4-structured-bom-with-costs.xlsx)** – grouped rows with costs
+
 ## Project overview
 
 | Part | What it is | Docs | CAD (GrabCAD) | Source page |

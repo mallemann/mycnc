@@ -40,6 +40,19 @@ The toothed belts were replaced by 16 mm ball screws, and the printed parts were
 
 Much more stable and rigid construction with a working area of 550 × 700 × 80 mm – milling aluminium is no problem. The original Raspberry Pi electronics were replaced by a [6-axis controller](../02-6-axis-controller/README.md) based on UC300ETH and UB1, running UCCNC or Mach4 on a Windows PC. The Z-axis was reworked several times (most recently with a ball screw ⌀ 12 mm, pitch 2.5 mm, and 15 mm profile rail guides) and gives a much better repeatability.
 
+## Complete bill of materials of the V4
+
+This is the complete structured bill of materials of the latest version V4 – every assembly and every single part of the machine, exported directly from the CAD model, with all costs. The structure levels can be expanded and collapsed: a click on an assembly shows its sub-assemblies and parts; the cost of an assembly is always the sum of its parts. The total price of the machine is at the very bottom.
+
+The same BOM is also available as an Excel file with grouped rows to expand and collapse, and as PDF.
+
+- **[Interactive view on masdrive](https://masdrive.ch/myprojects/projects/cnc-platform/#stueckliste)**
+- [Markdown view in this repo](../../bom/v4-structured-bom.md)
+- [Structured BOM V4 as Excel (with costs and grouping)](../../bom/v4-structured-bom-with-costs.xlsx)
+- [Structured BOM V4 (PDF, multi-level)](../../bom/v4-bom-multi-level.pdf)
+- [Assembly overview V4 (PDF, single-level)](../../bom/v4-bom-single-level.pdf)
+- [Quantity BOM V4 (PDF)](../../bom/v4-bom-quantities.pdf)
+
 ## The real thing
 
 Repeat precision: 0.01 mm · Reverse backlash: 0.01 mm
@@ -70,9 +83,7 @@ Bills of materials and wiring (originals from masdrive, German or partly German,
 - [BOM structure (V3)](../../bom/v3-bom-structure.pdf)
 - [Purchased parts V4 (Raspberry variant)](../../bom/v4-purchased-parts-raspberry.pdf)
 - [Purchased parts V4 (UC300ETH/UB1 variant)](../../bom/v4-purchased-parts-uc300eth-ub1.pdf)
-- [BOM V4 – assembly overview (single-level)](../../bom/v4-bom-single-level.pdf)
-- [BOM V4 – structure (multi-level)](../../bom/v4-bom-multi-level.pdf)
-- [BOM V4 – quantities](../../bom/v4-bom-quantities.pdf)
+- Complete structured BOM V4 with costs: see [Complete bill of materials of the V4](#complete-bill-of-materials-of-the-v4)
 - [Electronics schematic V4](../../electronics/v4-schematic-6-axis-controller.pdf)
 
 ## Control and software
