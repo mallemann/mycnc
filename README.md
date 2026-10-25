@@ -28,7 +28,7 @@ Every assembly and every single part of the current V4, exported directly from t
 | **4th axis for CNC router** | Rotary/indexing axis with 80 mm 4-jaw chuck, NEMA 23 | [docs/03-4th-axis](docs/03-4th-axis/README.md) | [4th Axis for CNC Router](https://grabcad.com/library/4th-axis-for-cnc-router-1) | [masdrive](https://masdrive.ch/myprojects/projects/4th-cnc-axis/) |
 | **4th/5th-axis AC/BC rotary table** | Table with two rotary axes for 4- and 5-axis machining | [docs/04-ac-bc-rotary-table](docs/04-ac-bc-rotary-table/README.md) | [Table for 5 Axis CNC with 2 Rotary Axis](https://grabcad.com/library/table-for-5-axis-cnc-with-2-rotary-axis-1) | [masdrive](https://masdrive.ch/myprojects/projects/ac-table/) |
 
-All CAD models are hosted on GrabCAD only – see [cad/README.md](cad/README.md) for the complete list, including the Z-axis variants 1–3 for V4 (variant 3 is the newest).
+**CAD files:** the complete V4 model (SolidWorks and Fusion 360) is available as a download on the [v4.0 release](https://github.com/mallemann/mycnc/releases/tag/v4.0); individual models are on GrabCAD. See [cad/README.md](cad/README.md) for downloads, how to open them, and the complete GrabCAD list including the Z-axis variants 1–3 for V4 (variant 3 is the newest).
 
 ## Key specifications (V4)
 
@@ -55,7 +55,7 @@ The machine currently runs on the self-built **6-axis controller (UC300ETH + UB1
 | [bom/](bom/README.md) | Bills of materials (V1, V3, V4) and purchased-parts lists (PDF, originals from masdrive) |
 | [electronics/](electronics/README.md) | Schematic of the 6-axis controller (V4) and axis mapping |
 | [config/](config/README.md) | Machine parameters from my build (steps/mm etc.) |
-| [cad/](cad/README.md) | Links to all CAD models on GrabCAD |
+| [cad/](cad/README.md) | CAD files: SolidWorks/Fusion 360 downloads, STEP (coming soon), GrabCAD links |
 | [images/](images/) | Photos and renderings, organised per part |
 | [CHANGELOG.md](CHANGELOG.md) | Version history of the machine |
 
@@ -76,7 +76,7 @@ The machine currently runs on the self-built **6-axis controller (UC300ETH + UB1
 | Hardware design (mechanical design, schematic, BOMs) | [CERN-OHL-S-2.0](LICENSE) – CERN Open Hardware Licence Version 2, Strongly Reciprocal |
 | Documentation, text and images | [CC BY-SA 4.0](LICENSE-docs) – Creative Commons Attribution-ShareAlike 4.0 International |
 
-In short: you may build, modify and share the design, also in modified form, as long as you credit the original and publish your changes under the same terms. Both licenses exclude any warranty and liability. The CAD files themselves are distributed via GrabCAD and are subject to the terms shown there.
+In short: you may build, modify and share the design, also in modified form, as long as you credit the original and publish your changes under the same terms. Both licenses exclude any warranty and liability. The native CAD files are distributed as release downloads and via GrabCAD (GrabCAD terms apply there). Third-party vendor models included in the CAD files remain the property of their owners and are not covered by these licenses – see [cad/README.md](cad/README.md#third-party-parts).
 
 ## Author
 

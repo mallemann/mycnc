@@ -16,4 +16,6 @@ LICENSE-docs text eol=lf
 *.mp4 binary
 *.step binary
 *.stp binary
+*.STEP binary
+*.STP binary
 *.stl binary

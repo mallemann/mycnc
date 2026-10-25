@@ -13,8 +13,18 @@
   - [6-axis CNC controller](https://github.com/mallemann/mycnc/blob/main/docs/02-6-axis-controller/README.md) (UC300ETH + UB1, UCCNC or Mach4), with the [schematic](https://github.com/mallemann/mycnc/blob/main/electronics/README.md)
   - [4th axis for CNC routers](https://github.com/mallemann/mycnc/blob/main/docs/03-4th-axis/README.md): rotary and indexing axis with an 80 mm 4-jaw chuck
   - [4th/5th-axis AC/BC rotary table](https://github.com/mallemann/mycnc/blob/main/docs/04-ac-bc-rotary-table/README.md): two rotary axes for 4- and 5-axis machining
-- **CAD:** all models on GrabCAD, including the Z-axis variants 1–3 for V4. See [cad/README.md](https://github.com/mallemann/mycnc/blob/main/cad/README.md).
+- **CAD:** complete V4 model as SolidWorks and Fusion 360 downloads (see *CAD downloads* below); individual models on GrabCAD, including the Z-axis variants 1–3 for V4. See [cad/README.md](https://github.com/mallemann/mycnc/blob/main/cad/README.md).
 - **Config:** machine parameters from my build, see [config/](https://github.com/mallemann/mycnc/blob/main/config/README.md) ([GRBL](https://github.com/mallemann/mycnc/blob/main/config/grbl/README.md) for V1/V3, [UCCNC](https://github.com/mallemann/mycnc/blob/main/config/uccnc/README.md) for V4).
+
+## CAD downloads
+
+The native CAD files of the complete V4 are attached to this release:
+
+- [MyCNC_V4_SolidWorks.zip](https://github.com/mallemann/mycnc/releases/download/v4.0/MyCNC_V4_SolidWorks.zip) – SolidWorks, top assembly `MyCNC_V4-REV-Isel.SLDASM`, 44 assemblies and 135 parts (about 170 MB). Unzip and open the top assembly.
+- [MyCNC_V4_Fusion360.f3z](https://github.com/mallemann/mycnc/releases/download/v4.0/MyCNC_V4_Fusion360.f3z) – Fusion 360 archive (about 35 MB). Upload or open it in Fusion 360.
+- A neutral STEP export (`cad/step/MyCNC_V4.step`) will follow in the repository.
+
+Some vendor models (motors, ball screws, bearings, rails, electronics and similar) are included for completeness only. They remain the property of their owners and are not covered by CERN-OHL-S-2.0. Details: [cad/README.md](https://github.com/mallemann/mycnc/blob/main/cad/README.md).
 
 ## Links
 

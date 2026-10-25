@@ -4,6 +4,7 @@ Version history of the machine, based on the [masdrive project pages](https://ma
 
 ## Repository
 
+- **2026-10-25** – CAD sources documented: complete V4 model (SolidWorks and Fusion 360) as downloads on the v4.0 release, STEP export announced, third-party parts notice; native CAD files excluded via .gitignore; pointers in README, docs and release notes.
 - **2026-10-25** – CNC router docs, section "The real thing": photo of the complete V4 machine added; captions of the Z-axis photos and rendering corrected; incorrect intro sentence replaced.
 - **2026-10-25** – Release **v4.0** (first public release): release notes added in [.github/RELEASE-NOTES-v4.0.md](.github/RELEASE-NOTES-v4.0.md).
 - **2026-10-25** – Social preview image for GitHub added ([.github/social-preview.png](.github/social-preview.png), 1280 × 640).

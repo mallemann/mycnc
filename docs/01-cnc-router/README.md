@@ -107,7 +107,9 @@ The parameters are collected in [config/](../../config/README.md).
 
 ## 3D models
 
-CAD models are available for download on GrabCAD (see also [cad/](../../cad/README.md)):
+**CAD files:** the complete V4 model as SolidWorks assembly and Fusion 360 archive is available as a download on the [v4.0 release](https://github.com/mallemann/mycnc/releases/tag/v4.0). How to open it, the STEP export and the third-party parts notice are described in [cad/README.md](../../cad/README.md).
+
+Individual models are available on GrabCAD:
 
 - [MyCNC V1](https://grabcad.com/library/mycnc-v1-1)
 - [My CNC V3](https://grabcad.com/library/my-cnc-v3-1)

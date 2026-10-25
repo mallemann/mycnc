@@ -14,7 +14,7 @@ Desktop.ini
 .vscode/
 .idea/
 
-# CAD temp and backup files (CAD models are hosted on GrabCAD)
+# CAD temp and backup files
 *.SLDPRT.bak
 *.SLDASM.bak
 ~*.SLDPRT
@@ -25,6 +25,14 @@ Desktop.ini
 *.f3d.bak
 *.FCStd1
 *.lck
+
+# Native CAD files: never commit them. They are published as GitHub release assets
+# (see cad/README.md). Neutral STEP exports (*.step, *.stp) are allowed.
+*.[Ss][Ll][Dd][Pp][Rr][Tt]
+*.[Ss][Ll][Dd][Aa][Ss][Mm]
+*.[Ss][Ll][Dd][Dd][Rr][Ww]
+*.[Ff]3[Zz]
+*.[Ff]3[Dd]
 
 # Archives and exports
 *.zip
