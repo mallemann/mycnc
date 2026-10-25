@@ -44,7 +44,7 @@ The machine currently runs on the self-built **6-axis controller (UC300ETH + UB1
 | Folder | Content |
 |---|---|
 | [docs/](docs/) | Documentation of the four parts, translated from the masdrive pages |
-| [bom/](bom/README.md) | Bills of materials and purchased-parts lists (PDF, German originals) |
+| [bom/](bom/README.md) | Bills of materials (V1, V3, V4) and purchased-parts lists (PDF, originals from masdrive) |
 | [electronics/](electronics/README.md) | Schematic of the 6-axis controller (V4) and axis mapping |
 | [config/](config/README.md) | Machine parameters from my build (steps/mm etc.) |
 | [cad/](cad/README.md) | Links to all CAD models on GrabCAD |

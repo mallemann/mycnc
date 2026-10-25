@@ -61,7 +61,7 @@ The basic construction is similar for all versions:
 4. Wire the stepper motors and limit switches (0.5 mm² stranded wire)
 5. Configure electronics and software (see [Control and software](#control-and-software))
 
-Bills of materials and wiring (German originals, see [bom/](../../bom/README.md)):
+Bills of materials and wiring (originals from masdrive, German or partly German, see [bom/](../../bom/README.md)):
 
 - [BOM structure (V1)](../../bom/v1-bom-structure.pdf)
 - [BOM quantities (V1)](../../bom/v1-bom-quantities.pdf)
@@ -70,6 +70,9 @@ Bills of materials and wiring (German originals, see [bom/](../../bom/README.md)
 - [BOM structure (V3)](../../bom/v3-bom-structure.pdf)
 - [Purchased parts V4 (Raspberry variant)](../../bom/v4-purchased-parts-raspberry.pdf)
 - [Purchased parts V4 (UC300ETH/UB1 variant)](../../bom/v4-purchased-parts-uc300eth-ub1.pdf)
+- [BOM V4 – assembly overview (single-level)](../../bom/v4-bom-single-level.pdf)
+- [BOM V4 – structure (multi-level)](../../bom/v4-bom-multi-level.pdf)
+- [BOM V4 – quantities](../../bom/v4-bom-quantities.pdf)
 - [Electronics schematic V4](../../electronics/v4-schematic-6-axis-controller.pdf)
 
 ## Control and software
