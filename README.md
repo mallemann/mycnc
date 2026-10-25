@@ -15,12 +15,12 @@ This repository collects the documentation, bills of materials, the electronics 
 
 | Part | What it is | Docs | CAD (GrabCAD) | Source page |
 |---|---|---|---|---|
-| **3-axis CNC router** (main project) | Self-built router, versions V1, V3 and V4 (current) | [docs/01-cnc-router](docs/01-cnc-router/README.md) | [V1](https://grabcad.com/library/mycnc-4) · [V3](https://grabcad.com/library/my-cnc-v3-1) · [V4](https://grabcad.com/library/mycnc-v4-1) | [masdrive](https://masdrive.ch/myprojects/projects/cnc-platform/) |
-| **6-axis CNC controller** | UC300ETH + UB1 based controller for up to 6 stepper motors | [docs/02-6-axis-controller](docs/02-6-axis-controller/README.md) | [Controller](https://grabcad.com/library/generic-6-axis-cnc-robotics-controller-1) | [masdrive](https://masdrive.ch/myprojects/projects/6-axis-controller/) |
-| **4th CNC axis** | Rotary/indexing axis with 80 mm 4-jaw chuck, NEMA 23 | [docs/03-4th-axis](docs/03-4th-axis/README.md) | [4th axis](https://grabcad.com/library/4th-axis-for-cnc-router-1) | [masdrive](https://masdrive.ch/myprojects/projects/4th-cnc-axis/) |
-| **AC/BC rotary table** | Table with two rotary axes for 4- and 5-axis machining | [docs/04-ac-bc-rotary-table](docs/04-ac-bc-rotary-table/README.md) | [AC/BC table](https://grabcad.com/library/table-for-5-axis-cnc-with-2-rotary-axis-1) | [masdrive](https://masdrive.ch/myprojects/projects/ac-table/) |
+| **3-axis CNC router** (main project) | Self-built router, versions V1, V3 and V4 (current) | [docs/01-cnc-router](docs/01-cnc-router/README.md) | [MyCNC V1](https://grabcad.com/library/mycnc-v1-1) · [My CNC V3](https://grabcad.com/library/my-cnc-v3-1) · [MyCNC V4](https://grabcad.com/library/mycnc-v4-3-axis-cnc-platform-router-1) | [masdrive](https://masdrive.ch/myprojects/projects/cnc-platform/) |
+| **6-axis CNC controller** | UC300ETH + UB1 based controller for up to 6 stepper motors | [docs/02-6-axis-controller](docs/02-6-axis-controller/README.md) | [Generic 6 Axis CNC / Robotics Controller](https://grabcad.com/library/generic-6-axis-cnc-robotics-controller-1) | [masdrive](https://masdrive.ch/myprojects/projects/6-axis-controller/) |
+| **4th CNC axis** | Rotary/indexing axis with 80 mm 4-jaw chuck, NEMA 23 | [docs/03-4th-axis](docs/03-4th-axis/README.md) | [4th Axis for CNC Router](https://grabcad.com/library/4th-axis-for-cnc-router-1) | [masdrive](https://masdrive.ch/myprojects/projects/4th-cnc-axis/) |
+| **AC/BC rotary table** | Table with two rotary axes for 4- and 5-axis machining | [docs/04-ac-bc-rotary-table](docs/04-ac-bc-rotary-table/README.md) | [Table for 5 Axis CNC with 2 Rotary Axis](https://grabcad.com/library/table-for-5-axis-cnc-with-2-rotary-axis-1) | [masdrive](https://masdrive.ch/myprojects/projects/ac-table/) |
 
-All CAD models are hosted on GrabCAD only – see [cad/README.md](cad/README.md) for the complete list, including the three Z-axis variants.
+All CAD models are hosted on GrabCAD only – see [cad/README.md](cad/README.md) for the complete list, including the current Z-axis and two older Z-axis variants.
 
 ## Key specifications (V4)
 

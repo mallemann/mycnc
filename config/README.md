@@ -8,13 +8,11 @@ All values below are taken from the [masdrive project pages](https://masdrive.ch
 
 | Parameter | Value (as published) |
 |---|---|
-| Drivers | A4988 on the Protoneer CNC HAT |
+| Drivers | A4988, DRV8825 on the Protoneer CNC HAT |
 | Microstepping | 16 microsteps |
 | Y-axis | Cloned (wired in opposite direction) |
-| Steps/mm X/Y | 307–3072 steps/mm (depending on version) |
-| Steps/mm Z | 1066.667 steps/mm |
 | Control software | GRBL, bCNC |
-| CAM used | HSMXpress (SolidWorks 2013), EstlCAM |
+| CAM used | HSMXpress (SolidWorks 2013) |
 
 References: [GRBL wiki](https://github.com/gnea/grbl/wiki) · [bCNC wiki](https://github.com/vlachoudis/bCNC/wiki)
 
@@ -28,7 +26,7 @@ References: [GRBL wiki](https://github.com/gnea/grbl/wiki) · [bCNC wiki](https:
 | Z-axis (latest) | Ball screw ⌀ 12 mm, pitch 2.5 mm, 15 mm profile rail guides |
 | Software | UCCNC (or Mach3/4) on a Windows PC |
 
-Steps per mm for V4 are not published yet.
+Steps per mm are not published for any version; determine them for your own build (motor steps, microstepping, screw pitch or belt/pulley ratio).
 
 ## Rotary axes (4th axis, AC/BC table)
 

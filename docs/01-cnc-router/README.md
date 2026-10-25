@@ -2,7 +2,7 @@
 
 *Self-built 3-axis CNC router – from the first version to the stable V4.*
 
-Source: [3-Achsen-CNC-Fräse im Eigenbau (masdrive.ch, German)](https://masdrive.ch/myprojects/projects/cnc-platform/) · CAD: [V1](https://grabcad.com/library/mycnc-4) · [V3](https://grabcad.com/library/my-cnc-v3-1) · [V4](https://grabcad.com/library/mycnc-v4-1) · Schematic: [electronics/](../../electronics/README.md)
+Source: [3-Achsen-CNC-Fräse im Eigenbau (masdrive.ch, German)](https://masdrive.ch/myprojects/projects/cnc-platform/) · CAD: [MyCNC V1](https://grabcad.com/library/mycnc-v1-1) · [My CNC V3](https://grabcad.com/library/my-cnc-v3-1) · [MyCNC V4, 3 Axis CNC Platform/Router](https://grabcad.com/library/mycnc-v4-3-axis-cnc-platform-router-1) · Schematic: [electronics/](../../electronics/README.md)
 
 ![MyCNC V4 with AC rotary table (CAD view)](../../images/cnc-router/v4-overview-cad-with-ac-table.jpg)
 
@@ -19,11 +19,10 @@ The table is reproduced as published on the source page.
 | Working area (V4) | 550 × 700 × 80 mm |
 | Repeatability (V4) | 0.01 mm |
 | Backlash (V4) | 0.01 mm |
-| Repeatability (V4) | ± 0.01 mm |
 | Frame material | Aluminium profiles, hardwood worktop, aluminium plates (V4) |
-| Drive V1 | Toothed belts, NEMA 17 stepper motors, A4988 drivers |
+| Drive V1 | Toothed belts, NEMA 17 stepper motors, A4988 drivers (later DRV8825) |
 | Guides from V3 | Linear guides |
-| Drive from V3 | 16 mm ball screws instead of toothed belts. NEMA 23 stepper motors, DQ542MA drivers |
+| Drive from V3 | 16 mm ball screws instead of toothed belts. DQ542MA drivers |
 | Control V1–V3 | Raspberry Pi + Protoneer CNC HAT, GRBL, bCNC |
 | Control V4 | UC300ETH / UB1 6-axis controller, UCCNC / Mach4, NEMA 23 + external drivers |
 
@@ -31,7 +30,7 @@ The table is reproduced as published on the source page.
 
 ### V1 – First version (2016)
 
-The first working machine, driven by toothed belts with NEMA 17 stepper motors (A4988 drivers) on a Raspberry Pi CNC HAT with GRBL/bCNC. Suitable for engraving, drilling and contour milling in wood. Known weakness: stability of the toothed belts under load.
+The first working machine, driven by toothed belts with NEMA 17 stepper motors (A4988 and DRV8825 drivers) on a Raspberry Pi CNC HAT with GRBL/bCNC. Suitable for engraving, drilling and contour milling in wood. Known weakness: stability of the toothed belts under load.
 
 ### V3 – Ball screws and more rigidity (2016)
 
@@ -75,7 +74,7 @@ Bills of materials and wiring (German originals, see [bom/](../../bom/README.md)
 
 ## Control and software
 
-**V1/V3 (Raspberry Pi):** Stepper drivers (A4988) on the Protoneer CNC HAT, 16 microsteps, Y-axis cloned (wired in opposite direction). Control via GRBL and bCNC. Machine parameters X/Y: 307–3072 steps/mm (depending on version), Z: 1066.667 steps/mm. G-code was generated with HSMXpress (SolidWorks 2013) and EstlCAM.
+**V1/V3 (Raspberry Pi):** Stepper drivers (A4988, DRV8825) on the Protoneer CNC HAT, 16 microsteps, Y-axis cloned (wired in opposite direction). Control via GRBL and bCNC. G-code was generated with HSMXpress (SolidWorks 2013).
 
 - [Configuring GRBL](https://github.com/gnea/grbl/wiki)
 - [bCNC wiki](https://github.com/vlachoudis/bCNC/wiki)
@@ -92,12 +91,11 @@ The parameters are collected in [config/](../../config/README.md).
 
 CAD models are available for download on GrabCAD (see also [cad/](../../cad/README.md)):
 
-- [CAD models V1 (GrabCAD)](https://grabcad.com/library/mycnc-4)
-- [CAD models V3 (GrabCAD)](https://grabcad.com/library/my-cnc-v3-1)
-- [CAD model V4 (GrabCAD)](https://grabcad.com/library/mycnc-v4-1)
-- [Z-axis variant 1 (V4)](https://grabcad.com/library/new-z-axis-1)
-- [Z-axis variant 2 (V4)](https://grabcad.com/library/new-cnc-z-axis-1)
-- [Z-axis variant 3 (V4)](https://grabcad.com/library/z-axis-cnc-router-1)
+- [MyCNC V1](https://grabcad.com/library/mycnc-v1-1)
+- [My CNC V3](https://grabcad.com/library/my-cnc-v3-1)
+- [MyCNC V4, 3 Axis CNC Platform/Router](https://grabcad.com/library/mycnc-v4-3-axis-cnc-platform-router-1)
+- Z-axis (current): [Z Axis CNC Router](https://grabcad.com/library/z-axis-cnc-router-1)
+- Older Z-axis variants: [New CNC Z Axis](https://grabcad.com/library/new-cnc-z-axis-1) · [New Z Axis CNC](https://grabcad.com/library/new-z-axis-cnc-1)
 
 ## Videos
 

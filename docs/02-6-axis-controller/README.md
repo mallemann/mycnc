@@ -57,7 +57,7 @@ The control cabinet is tailored to my machine. Motor currents, microstep setting
 
 One point that is often neglected in DIY builds: **the emergency-stop chain must actually cut the power** and must not merely send a software signal to the controller.
 
-The CAD models of the enclosure are available for download on [GrabCAD](https://grabcad.com/library/generic-6-axis-cnc-robotics-controller-1).
+The CAD models of the enclosure are available for download on GrabCAD: [Generic 6 Axis CNC / Robotics Controller](https://grabcad.com/library/generic-6-axis-cnc-robotics-controller-1).
 
 ## Gallery
 

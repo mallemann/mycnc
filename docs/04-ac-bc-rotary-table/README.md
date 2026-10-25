@@ -52,7 +52,7 @@ The additional axes are driven by the [6-axis CNC controller](../02-6-axis-contr
 
 ## CAD models
 
-The CAD models contain the complete design and are the best starting point for anyone who wants to rebuild the table or adapt it to their own machine: [download from GrabCAD](https://grabcad.com/library/table-for-5-axis-cnc-with-2-rotary-axis-1).
+The CAD models contain the complete design and are the best starting point for anyone who wants to rebuild the table or adapt it to their own machine: [Table for 5 Axis CNC with 2 Rotary Axis (GrabCAD)](https://grabcad.com/library/table-for-5-axis-cnc-with-2-rotary-axis-1).
 
 ## The table in action
 

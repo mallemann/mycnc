@@ -4,6 +4,7 @@ Version history of the machine, based on the [masdrive project pages](https://ma
 
 ## Repository
 
+- **2026-10-25** – GrabCAD links updated to the authoritative model list; specs synced with the corrected masdrive pages.
 - **2026-10-25** – Initial import of the documentation, BOMs, schematic, images and CAD links into this repository.
 
 ## 3-axis CNC router
@@ -14,7 +15,7 @@ Version history of the machine, based on the [masdrive project pages](https://ma
 - Aluminium plates in the frame; aluminium worktop instead of hardwood.
 - Raspberry Pi electronics replaced by the self-built 6-axis controller (UC300ETH + UB1) with UCCNC or Mach4 on a Windows PC, connected via Ethernet.
 - NEMA 23 stepper motors with external DQ542MA drivers (replacing the internal DRV8825 drivers).
-- Z-axis reworked several times (three variants on GrabCAD); latest version with ball screw ⌀ 12 mm, pitch 2.5 mm, and 15 mm profile rail guides. New Z-axis made from solid aluminium.
+- Z-axis reworked several times (current Z-axis plus two older variants on GrabCAD); latest version with ball screw ⌀ 12 mm, pitch 2.5 mm, and 15 mm profile rail guides. New Z-axis made from solid aluminium.
 - Minimum quantity lubrication with solenoid valve, switchable from the program.
 - Repeatability 0.01 mm, backlash 0.01 mm.
 
@@ -27,7 +28,7 @@ Version history of the machine, based on the [masdrive project pages](https://ma
 
 ### V1 – First version (2016)
 
-- Toothed belts, NEMA 17 stepper motors, A4988 drivers on a Raspberry Pi CNC HAT with GRBL/bCNC.
+- Toothed belts, NEMA 17 stepper motors, A4988 drivers (later DRV8825) on a Raspberry Pi CNC HAT with GRBL/bCNC.
 - Suitable for engraving, drilling and contour milling in wood.
 - Known weakness: stability of the toothed belts under load.
 

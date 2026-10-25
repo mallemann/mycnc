@@ -4,7 +4,7 @@ Schematic of the **Generic 6 Axis CNC Controller** used on the V4 router (German
 
 - PDF: [v4-schematic-6-axis-controller.pdf](v4-schematic-6-axis-controller.pdf)
 - Description of the controller: [docs/02-6-axis-controller](../docs/02-6-axis-controller/README.md)
-- CAD of the enclosure: [GrabCAD](https://grabcad.com/library/generic-6-axis-cnc-robotics-controller-1)
+- CAD of the enclosure: [Generic 6 Axis CNC / Robotics Controller (GrabCAD)](https://grabcad.com/library/generic-6-axis-cnc-robotics-controller-1)
 
 ![Schematic preview of the 6-axis controller](v4-schematic-preview.jpg)
 
@@ -37,7 +37,7 @@ The schematic labels the rotary-axis outputs generically (R1 / "A, B(C)"); in my
 
 - Up to 6 stepper motors, **max. 4.2 A per axis** (UC300ETH/UB1 controller).
 - V4: NEMA 23 stepper motors with external **DQ542MA** drivers.
-- V1/V3: A4988 drivers on the Protoneer CNC HAT, 16 microsteps.
+- V1/V3: A4988 or DRV8825 drivers on the Protoneer CNC HAT, 16 microsteps.
 
 Set the motor current and microstepping on each driver to match **your** motors – the values above are limits and my choices, not recommendations.
 
