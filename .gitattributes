@@ -1,0 +1,19 @@
+# Normalise text files to LF in the repository
+* text=auto
+*.md text eol=lf
+*.txt text eol=lf
+LICENSE text eol=lf
+LICENSE-docs text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Binary files
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.mp4 binary
+*.step binary
+*.stp binary
+*.stl binary
