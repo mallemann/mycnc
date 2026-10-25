@@ -11,9 +11,9 @@ My GrabCAD profile with all models: <https://grabcad.com/martin.allemann-1/model
 | MyCNC V1 | First version (2016), belt-driven | <https://grabcad.com/library/mycnc-v1-1> |
 | My CNC V3 | Ball screws, more rigid printed parts (2016) | <https://grabcad.com/library/my-cnc-v3-1> |
 | MyCNC V4, 3 Axis CNC Platform/Router | Current machine, 550 × 700 × 80 mm | <https://grabcad.com/library/mycnc-v4-3-axis-cnc-platform-router-1> |
-| Z Axis CNC Router | Current Z-axis: ball screw ⌀ 12 mm, pitch 2.5 mm, 15 mm profile rails | <https://grabcad.com/library/z-axis-cnc-router-1> |
-| New CNC Z Axis | Older Z-axis variant | <https://grabcad.com/library/new-cnc-z-axis-1> |
-| New Z Axis CNC | Older Z-axis variant | <https://grabcad.com/library/new-z-axis-cnc-1> |
+| New Z Axis CNC | Z-axis variant 1 (V4), oldest | <https://grabcad.com/library/new-z-axis-cnc-1> |
+| New CNC Z Axis | Z-axis variant 2 (V4) | <https://grabcad.com/library/new-cnc-z-axis-1> |
+| Z Axis CNC Router | Z-axis variant 3 (V4), newest: ball screw ⌀ 12 mm, pitch 2.5 mm, 15 mm profile rails | <https://grabcad.com/library/z-axis-cnc-router-1> |
 
 Documentation: [docs/01-cnc-router](../docs/01-cnc-router/README.md)
 

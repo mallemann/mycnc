@@ -8,7 +8,7 @@ Source: [3-Achsen-CNC-Fräse im Eigenbau (masdrive.ch, German)](https://masdrive
 
 This project has been with me for years: a completely self-designed and self-built 3-axis CNC router based on aluminium profiles, 3D-printed parts and linear guides. Over several versions the machine became steadily more rigid, more precise and more capable – from the first version capable of engraving to the current V4, which mills aluminium without problems. The machine currently runs with my new [6-axis controller](../02-6-axis-controller/README.md) (UC300ETH + UB1) and UCCNC or Mach4 under Windows.
 
-The picture above shows the machine in its current configuration, including the [AC rotary table](../04-ac-bc-rotary-table/README.md) on the machine bed, which adds two rotary axes and makes 4- and 5-axis machining possible.
+The picture above shows the CAD model of the current configuration, including the [AC rotary table](../04-ac-bc-rotary-table/README.md) on the machine bed, which adds two rotary axes and makes 4- and 5-axis machining possible.
 
 ## Technical data
 
@@ -22,9 +22,9 @@ The table is reproduced as published on the source page.
 | Frame material | Aluminium profiles, hardwood worktop, aluminium plates (V4) |
 | Drive V1 | Toothed belts, NEMA 17 stepper motors, A4988 drivers (later DRV8825) |
 | Guides from V3 | Linear guides |
-| Drive from V3 | 16 mm ball screws instead of toothed belts. DQ542MA drivers |
+| Drive from V3 | 16 mm ball screws instead of toothed belts |
 | Control V1–V3 | Raspberry Pi + Protoneer CNC HAT, GRBL, bCNC |
-| Control V4 | UC300ETH / UB1 6-axis controller, UCCNC / Mach4, NEMA 23 + external drivers |
+| Control V4 | UC300ETH / UB1 6-axis controller, UCCNC / Mach4, NEMA 23 + external DQ542MA drivers |
 
 ## Version history
 
@@ -94,8 +94,9 @@ CAD models are available for download on GrabCAD (see also [cad/](../../cad/READ
 - [MyCNC V1](https://grabcad.com/library/mycnc-v1-1)
 - [My CNC V3](https://grabcad.com/library/my-cnc-v3-1)
 - [MyCNC V4, 3 Axis CNC Platform/Router](https://grabcad.com/library/mycnc-v4-3-axis-cnc-platform-router-1)
-- Z-axis (current): [Z Axis CNC Router](https://grabcad.com/library/z-axis-cnc-router-1)
-- Older Z-axis variants: [New CNC Z Axis](https://grabcad.com/library/new-cnc-z-axis-1) · [New Z Axis CNC](https://grabcad.com/library/new-z-axis-cnc-1)
+- Z-axis variant 1 (V4): [New Z Axis CNC](https://grabcad.com/library/new-z-axis-cnc-1)
+- Z-axis variant 2 (V4): [New CNC Z Axis](https://grabcad.com/library/new-cnc-z-axis-1)
+- Z-axis variant 3 (V4, newest): [Z Axis CNC Router](https://grabcad.com/library/z-axis-cnc-router-1)
 
 ## Videos
 

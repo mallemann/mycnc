@@ -20,7 +20,7 @@ This repository collects the documentation, bills of materials, the electronics 
 | **4th CNC axis** | Rotary/indexing axis with 80 mm 4-jaw chuck, NEMA 23 | [docs/03-4th-axis](docs/03-4th-axis/README.md) | [4th Axis for CNC Router](https://grabcad.com/library/4th-axis-for-cnc-router-1) | [masdrive](https://masdrive.ch/myprojects/projects/4th-cnc-axis/) |
 | **AC/BC rotary table** | Table with two rotary axes for 4- and 5-axis machining | [docs/04-ac-bc-rotary-table](docs/04-ac-bc-rotary-table/README.md) | [Table for 5 Axis CNC with 2 Rotary Axis](https://grabcad.com/library/table-for-5-axis-cnc-with-2-rotary-axis-1) | [masdrive](https://masdrive.ch/myprojects/projects/ac-table/) |
 
-All CAD models are hosted on GrabCAD only – see [cad/README.md](cad/README.md) for the complete list, including the current Z-axis and two older Z-axis variants.
+All CAD models are hosted on GrabCAD only – see [cad/README.md](cad/README.md) for the complete list, including the Z-axis variants 1–3 for V4 (variant 3 is the newest).
 
 ## Key specifications (V4)
 
