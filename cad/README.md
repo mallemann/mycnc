@@ -4,16 +4,16 @@ The CAD models are the main reference for dimensions and assembly. They are avai
 
 | Form | What it is | Where |
 |---|---|---|
-| **SolidWorks (native)** | Complete V4 model: top assembly `MyCNC_V4-REV-Isel.SLDASM`, 44 assemblies and 135 parts (179 files) | [MyCNC_V4_SolidWorks.zip](https://github.com/mallemann/mycnc/releases/download/v4.0/MyCNC_V4_SolidWorks.zip) – GitHub release v4.0 |
+| **SolidWorks (native)** | Complete V4 model: top assembly `MyCNC_V4-REV-Isel.SLDASM`, 44 assemblies and 132 parts (176 files) | [MyCNC_V4_SolidWorks.zip](https://github.com/mallemann/mycnc/releases/download/v4.0/MyCNC_V4_SolidWorks.zip) – GitHub release v4.0 |
 | **Fusion 360 (native)** | Fusion 360 archive of the same V4 model | [MyCNC_V4_Fusion360.f3z](https://github.com/mallemann/mycnc/releases/download/v4.0/MyCNC_V4_Fusion360.f3z) – GitHub release v4.0 |
-| **STEP (neutral)** | Neutral export for any CAD program | `cad/step/MyCNC_V4.step` – *coming soon* |
+| **STEP (neutral)** | Neutral STEP export of the complete V4 assembly (AP214, exported from SolidWorks), about 86 MB | [step/MyCNC_V4.step](step/MyCNC_V4.step) – in this repository |
 | **GrabCAD** | Individual models: V1, V3, V4, Z-axis variants and the extensions | [GrabCAD profile](https://grabcad.com/martin.allemann-1/models), see the list below |
 
 The native files are large binary files, so they are published as downloads on the [v4.0 release](https://github.com/mallemann/mycnc/releases/tag/v4.0) and are not stored in the git history.
 
 ## SolidWorks
 
-1. Download [MyCNC_V4_SolidWorks.zip](https://github.com/mallemann/mycnc/releases/download/v4.0/MyCNC_V4_SolidWorks.zip) (about 170 MB).
+1. Download [MyCNC_V4_SolidWorks.zip](https://github.com/mallemann/mycnc/releases/download/v4.0/MyCNC_V4_SolidWorks.zip) (about 160 MB).
 2. Unzip it. All files are in one flat folder, `MyCNC_V4_SolidWorks/`. Keep them together so that SolidWorks finds the references.
 3. Open the top assembly **`MyCNC_V4-REV-Isel.SLDASM`**.
 
@@ -25,15 +25,19 @@ Besides the router itself (base frame, X, Y1/Y2 and Z axes), the folder also con
 2. In Fusion 360, open the Data Panel and use **Upload** (or **File → Open → Open from my computer…**) to import the `.f3z` archive into a project.
 3. Open the uploaded design `MyCNC_V4-REV-Isel`.
 
-## STEP export (coming soon)
+## STEP export
 
-> **Not yet available.** A neutral STEP export of the complete V4 will be added to this repository at `cad/step/MyCNC_V4.step`. Until then, please use the SolidWorks or Fusion 360 downloads above.
+[`cad/step/MyCNC_V4.step`](step/MyCNC_V4.step) (about 86 MB) is a neutral STEP export (AP214) of the complete V4 assembly `MyCNC_V4-REV-Isel`, exported from SolidWorks. It contains the full assembly structure with all sub-assemblies and parts.
 
-STEP files can be opened in practically every CAD program (FreeCAD, Fusion 360, Onshape, SolidWorks, Inventor and others). They contain geometry only, without the feature history.
+STEP files open in practically every CAD program – FreeCAD, Onshape, Fusion 360, SolidWorks, Inventor and others. They contain geometry only, without the feature history; use the native SolidWorks or Fusion 360 files above if you want to edit the design parametrically.
+
+The file is too large to be previewed on GitHub. Use **Download raw file** on its GitHub page, or clone the repository.
 
 ## Third-party parts
 
 Some purchased components in the model – for example stepper motors, ball screws, bearings, profile rail guides, couplings, power supplies, controller boards, connectors and standard fasteners – are vendor models or models downloaded from other sources. They are included **for completeness only**, so that the assembly is complete. They **remain the property of their respective owners** and are **not covered by the CERN-OHL-S-2.0** licence of this project. Check the terms of the respective vendor before reusing them, and get the original models from the vendor where possible.
+
+The McMaster-Carr fastener models (91292A116, 91239A412, 9546K241) have been **removed** from the published SolidWorks and STEP model. The screws listed under BOM position 4.4.7 (controller enclosure) are standard parts that you buy; see the [V4 structured BOM](../bom/v4-structured-bom.md).
 
 ## GrabCAD models
 

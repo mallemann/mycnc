@@ -107,7 +107,7 @@ The parameters are collected in [config/](../../config/README.md).
 
 ## 3D models
 
-**CAD files:** the complete V4 model as SolidWorks assembly and Fusion 360 archive is available as a download on the [v4.0 release](https://github.com/mallemann/mycnc/releases/tag/v4.0). How to open it, the STEP export and the third-party parts notice are described in [cad/README.md](../../cad/README.md).
+**CAD files:** the complete V4 model as SolidWorks assembly and Fusion 360 archive is available as a download on the [v4.0 release](https://github.com/mallemann/mycnc/releases/tag/v4.0). A neutral STEP export is in the repository: [cad/step/MyCNC_V4.step](../../cad/step/MyCNC_V4.step). How to open the files and the third-party parts notice are described in [cad/README.md](../../cad/README.md).
 
 Individual models are available on GrabCAD:
 

@@ -28,7 +28,7 @@ Every assembly and every single part of the current V4, exported directly from t
 | **4th axis for CNC router** | Rotary/indexing axis with 80 mm 4-jaw chuck, NEMA 23 | [docs/03-4th-axis](docs/03-4th-axis/README.md) | [4th Axis for CNC Router](https://grabcad.com/library/4th-axis-for-cnc-router-1) | [masdrive](https://masdrive.ch/myprojects/projects/4th-cnc-axis/) |
 | **4th/5th-axis AC/BC rotary table** | Table with two rotary axes for 4- and 5-axis machining | [docs/04-ac-bc-rotary-table](docs/04-ac-bc-rotary-table/README.md) | [Table for 5 Axis CNC with 2 Rotary Axis](https://grabcad.com/library/table-for-5-axis-cnc-with-2-rotary-axis-1) | [masdrive](https://masdrive.ch/myprojects/projects/ac-table/) |
 
-**CAD files:** the complete V4 model (SolidWorks and Fusion 360) is available as a download on the [v4.0 release](https://github.com/mallemann/mycnc/releases/tag/v4.0); individual models are on GrabCAD. See [cad/README.md](cad/README.md) for downloads, how to open them, and the complete GrabCAD list including the Z-axis variants 1–3 for V4 (variant 3 is the newest).
+**CAD files:** the complete V4 model is available as a neutral [STEP export](cad/step/MyCNC_V4.step) in this repository and as native SolidWorks and Fusion 360 downloads on the [v4.0 release](https://github.com/mallemann/mycnc/releases/tag/v4.0); individual models are on GrabCAD. See [cad/README.md](cad/README.md) for downloads, how to open them, and the complete GrabCAD list including the Z-axis variants 1–3 for V4 (variant 3 is the newest).
 
 ## Key specifications (V4)
 
@@ -55,7 +55,7 @@ The machine currently runs on the self-built **6-axis controller (UC300ETH + UB1
 | [bom/](bom/README.md) | Bills of materials (V1, V3, V4) and purchased-parts lists (PDF, originals from masdrive) |
 | [electronics/](electronics/README.md) | Schematic of the 6-axis controller (V4) and axis mapping |
 | [config/](config/README.md) | Machine parameters from my build (steps/mm etc.) |
-| [cad/](cad/README.md) | CAD files: SolidWorks/Fusion 360 downloads, STEP (coming soon), GrabCAD links |
+| [cad/](cad/README.md) | CAD files: SolidWorks/Fusion 360 downloads, STEP export, GrabCAD links |
 | [images/](images/) | Photos and renderings, organised per part |
 | [CHANGELOG.md](CHANGELOG.md) | Version history of the machine |
 
