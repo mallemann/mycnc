@@ -1,6 +1,6 @@
-# 4th CNC Axis
+# 4th Axis for a DIY CNC Router
 
-*Rotary and indexing axis with 80 mm chuck – can be retrofitted to any CNC router.*
+*Rotary and indexing 4th axis (A- or B-axis) with 80 mm chuck – can be retrofitted to any CNC router.*
 
 Source: [4. CNC-Achse (masdrive.ch, German)](https://masdrive.ch/myprojects/projects/4th-cnc-axis/) · CAD: [4th Axis for CNC Router (GrabCAD)](https://grabcad.com/library/4th-axis-for-cnc-router-1)
 

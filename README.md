@@ -1,8 +1,8 @@
-# MyCNC – DIY 3-Axis CNC Router with 4th/5th-Axis Extensions
+# MyCNC – Open-Source DIY CNC Router with 4th Axis and 4th/5th-Axis AC/BC Rotary Table
 
 ![MyCNC V4 with the AC rotary table on the machine bed (CAD view)](images/cnc-router/v4-overview-cad-with-ac-table.jpg)
 
-A completely self-designed and self-built 3-axis CNC router based on aluminium profiles, 3D-printed parts and linear guides – plus the 6-axis controller, a 4th axis and an AC/BC rotary table that extend it to 4- and 5-axis machining.
+**MyCNC** is an open-source hardware **DIY CNC router**: a self-designed and self-built 3-axis CNC router with an aluminium frame (aluminium profiles and plates), 3D-printed parts and linear guides, developed through versions V1–V4 since 2016. Around it are three extensions that turn it into a multi-axis machine: a **4th axis for CNC routers** (rotary and indexing axis with an 80 mm chuck), a **4th/5th-axis AC/BC rotary table** as a 5-axis upgrade for 4- and 5-axis machining, and a self-built **6-axis CNC controller** (UC300ETH + UB1) running UCCNC or Mach4. Earlier versions ran GRBL on a Raspberry Pi.
 
 Over several versions the machine became steadily more rigid, more precise and more capable: from the first version, suitable for engraving, to the current V4, which mills aluminium without problems.
 
@@ -25,8 +25,8 @@ Every assembly and every single part of the current V4, exported directly from t
 |---|---|---|---|---|
 | **3-axis CNC router** (main project) | Self-built router, versions V1, V3 and V4 (current) | [docs/01-cnc-router](docs/01-cnc-router/README.md) | [MyCNC V1](https://grabcad.com/library/mycnc-v1-1) · [My CNC V3](https://grabcad.com/library/my-cnc-v3-1) · [MyCNC V4](https://grabcad.com/library/mycnc-v4-3-axis-cnc-platform-router-1) | [masdrive](https://masdrive.ch/myprojects/projects/cnc-platform/) |
 | **6-axis CNC controller** | UC300ETH + UB1 based controller for up to 6 stepper motors | [docs/02-6-axis-controller](docs/02-6-axis-controller/README.md) | [Generic 6 Axis CNC / Robotics Controller](https://grabcad.com/library/generic-6-axis-cnc-robotics-controller-1) | [masdrive](https://masdrive.ch/myprojects/projects/6-axis-controller/) |
-| **4th CNC axis** | Rotary/indexing axis with 80 mm 4-jaw chuck, NEMA 23 | [docs/03-4th-axis](docs/03-4th-axis/README.md) | [4th Axis for CNC Router](https://grabcad.com/library/4th-axis-for-cnc-router-1) | [masdrive](https://masdrive.ch/myprojects/projects/4th-cnc-axis/) |
-| **AC/BC rotary table** | Table with two rotary axes for 4- and 5-axis machining | [docs/04-ac-bc-rotary-table](docs/04-ac-bc-rotary-table/README.md) | [Table for 5 Axis CNC with 2 Rotary Axis](https://grabcad.com/library/table-for-5-axis-cnc-with-2-rotary-axis-1) | [masdrive](https://masdrive.ch/myprojects/projects/ac-table/) |
+| **4th axis for CNC router** | Rotary/indexing axis with 80 mm 4-jaw chuck, NEMA 23 | [docs/03-4th-axis](docs/03-4th-axis/README.md) | [4th Axis for CNC Router](https://grabcad.com/library/4th-axis-for-cnc-router-1) | [masdrive](https://masdrive.ch/myprojects/projects/4th-cnc-axis/) |
+| **4th/5th-axis AC/BC rotary table** | Table with two rotary axes for 4- and 5-axis machining | [docs/04-ac-bc-rotary-table](docs/04-ac-bc-rotary-table/README.md) | [Table for 5 Axis CNC with 2 Rotary Axis](https://grabcad.com/library/table-for-5-axis-cnc-with-2-rotary-axis-1) | [masdrive](https://masdrive.ch/myprojects/projects/ac-table/) |
 
 All CAD models are hosted on GrabCAD only – see [cad/README.md](cad/README.md) for the complete list, including the Z-axis variants 1–3 for V4 (variant 3 is the newest).
 

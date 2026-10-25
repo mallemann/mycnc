@@ -1,6 +1,6 @@
-# 3-Axis CNC Router (main project)
+# DIY 3-Axis CNC Router (main project)
 
-*Self-built 3-axis CNC router – from the first version to the stable V4.*
+*Self-built aluminium DIY CNC router – from the first version (2016) to the stable V4.*
 
 Source: [3-Achsen-CNC-Fräse im Eigenbau (masdrive.ch, German)](https://masdrive.ch/myprojects/projects/cnc-platform/) · CAD: [MyCNC V1](https://grabcad.com/library/mycnc-v1-1) · [My CNC V3](https://grabcad.com/library/my-cnc-v3-1) · [MyCNC V4, 3 Axis CNC Platform/Router](https://grabcad.com/library/mycnc-v4-3-axis-cnc-platform-router-1) · Schematic: [electronics/](../../electronics/README.md)
 

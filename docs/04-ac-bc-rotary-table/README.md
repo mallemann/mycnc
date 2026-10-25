@@ -1,6 +1,6 @@
-# AC/BC Rotary Table for 5-Axis CNC Extension
+# 4th/5th Axis AC/BC Rotary Table for 5-Axis CNC
 
-*Rotary table with two rotary axes – extends a DIY CNC router to 4- and 5-axis machining.*
+*Rotary table with two rotary axes – a 5-axis upgrade that extends a DIY CNC router to 4- and 5-axis machining.*
 
 Source: [AC/BC Tisch für 5-Achsen CNC Erweiterung (masdrive.ch, German)](https://masdrive.ch/myprojects/projects/ac-table/) · CAD: [Table for 5 Axis CNC with 2 Rotary Axis (GrabCAD)](https://grabcad.com/library/table-for-5-axis-cnc-with-2-rotary-axis-1)
 

@@ -4,6 +4,7 @@ Version history of the machine, based on the [masdrive project pages](https://ma
 
 ## Repository
 
+- **2026-10-25** – Improved discoverability: README intro and documentation headings now name the project with common search terms (DIY CNC router, 4th axis, 4th/5th-axis AC/BC rotary table, 5-axis, 6-axis CNC controller).
 - **2026-10-25** – V4 structured BOM with costs added (Excel + Markdown view), linked prominently in the README.
 - **2026-10-25** – V4 bills of materials replaced with the revised versions from masdrive (revised layout).
 - **2026-10-25** – V4 bills of materials added (single-level, multi-level, quantities).

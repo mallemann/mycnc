@@ -1,4 +1,4 @@
-# 6-Axis CNC Controller
+# 6-Axis CNC Controller for a DIY CNC Router (UC300ETH + UB1)
 
 *Controller for up to 6 stepper motors based on UC300ETH and UB1 – for 4- and 5-axis operation.*
 
