@@ -57,9 +57,9 @@ The same BOM is also available as an Excel file with grouped rows to expand and 
 
 Repeat precision: 0.01 mm · Reverse backlash: 0.01 mm
 
-The complete V4 machine, followed by details of its Z-axis:
+The complete V4 machine, followed by details of its latest Z-axis (this latest Z-axis was built using the previous version of the Z-axis):
 
-![V4 – complete machine](../../images/cnc-router/v4-detail-2.jpg)
+![V4 – complete machine](../../images/cnc-router/v4-complete-2026-10.jpg)
 
 *V4 – complete machine*
 
